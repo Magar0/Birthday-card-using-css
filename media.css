@@ -1,6 +1,33 @@
-/* @media (max-width:700px) {
-    .birthdayCard {
-        height: 250px;
-        width: 150px;
+@media (max-width:700px) {
+    .birthdayCard, .cardFront, .cardInside{
+        height: 280px;
+        width: 200px
     
-}} */
+}
+
+.cardFront .cardInside {
+    padding: 15px;    
+}
+
+.happy {
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    font-size: 1rem;
+}
+
+.back{
+    font-size: 0.8rem;
+    margin: 5px;
+}
+
+.receiver {
+    margin: 10px 0 7px;
+
+}
+
+.content {
+font-size: 0.75rem;
+}
+}
+
+
