@@ -32,6 +32,7 @@ body {
     width: 250px;
     background-color: aliceblue;
     transition: all 1s;
+    cursor: pointer;
 
 }
 
@@ -200,3 +201,4 @@ body {
     text-decoration: underline;
     text-align: end;
 }
+
