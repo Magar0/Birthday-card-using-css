@@ -14,9 +14,9 @@
 
     
     <div class="container">
-        <div class="birthdayCard">
+        <div class="birthdayCard" onmouseover="start()" >
             
-            <div class="cardFront">
+            <div class="cardFront" >
                 <p class="happy text-center">Happy Birthday </br> Munu</p>
                 <p></p>
                 
@@ -39,5 +39,28 @@
         <!-- <h3 class="click">Click The Card</h3> -->
     </div>
     
+
+
+<script src="./confetti.js"></script>
+
+<script>
+
+    let value= false
+    const start=()=>{
+        if (!value){
+
+            startConfetti();
+            console.log("start")
+
+            value=true;
+
+        setTimeout(()=>{
+            stopConfetti();
+            console.log("stop")
+        }, 2000)
+    }
+    }
+</script>
+  
 </body>
 </html>
