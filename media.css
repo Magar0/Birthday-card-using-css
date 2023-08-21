@@ -1,7 +1,7 @@
 @media (max-width:700px) {
     .birthdayCard, .cardFront, .cardInside{
-        height: 280px;
-        width: 200px
+        height: 250px;
+        width: 170px
     
 }
 
@@ -9,24 +9,33 @@
     padding: 15px;    
 }
 
+.birthdayCard:hover {
+    transform:  rotate(5deg) translateX(80px);
+}
+
+
 .happy {
     letter-spacing: 0.1rem;
-    word-spacing: 0.3rem;
-    font-size: 1rem;
+    word-spacing: 0.2rem;
+    font-size: 0.7rem;
 }
 
 .back{
-    font-size: 0.8rem;
-    margin: 5px;
+    font-size: 0.7rem;
+    margin: 3px;
 }
 
 .receiver {
-    margin: 10px 0 7px;
+    margin: 8px 0 4px;
 
 }
 
 .content {
-font-size: 0.75rem;
+font-size: 0.65rem;
+}
+
+.sender{
+margin: 5px 10px 0 0;
 }
 }
 
