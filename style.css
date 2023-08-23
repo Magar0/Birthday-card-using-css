@@ -21,7 +21,7 @@ body {
 .container {
     height: 100vh;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -30,6 +30,7 @@ body {
     position: absolute;
     height: 350px;
     width: 250px;
+    margin-top: 130px;
     background-color: aliceblue;
     transition: all 1s;
     cursor: pointer;

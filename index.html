@@ -36,6 +36,12 @@
             </div>
             
         </div>
+
+        <div>
+            <audio id="myAudio">
+                <source src="./files/birthdaysong.mp3" >
+            </audio>
+        </div>
         <!-- <h3 class="click">Click The Card</h3> -->
     </div>
     
@@ -45,21 +51,26 @@
 
 <script>
 
+const audio =document.getElementById("myAudio")
+
     let value= false
     const start=()=>{
         if (!value){
 
             startConfetti();
+            audio.play()
             value=true;
 
         setTimeout(()=>{
             stopConfetti();
         }, 2000)
+
+
     }
     }
 
 
-    
+
 </script>
   
 </body>
