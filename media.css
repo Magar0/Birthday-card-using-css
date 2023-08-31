@@ -27,6 +27,7 @@
 
 .receiver {
     margin: 8px 0 4px;
+    font-size: 0.8rem;
 
 }
 
@@ -36,6 +37,7 @@ font-size: 0.65rem;
 
 .sender{
 margin: 5px 10px 0 0;
+font-size: 0.8rem;
 }
 }
 

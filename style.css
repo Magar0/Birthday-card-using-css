@@ -70,7 +70,7 @@ body {
     transform: rotateY(-160deg);
     box-shadow:  inset 100px 20px 100px rgba(0, 0, 0, .2), 0 10px 100px rgba(0, 0, 0, 0.5);
 
-    background: url("./files/BirthdayGirl.jpg");
+    background: url("./files/pic.avif");
     background-size: cover;
     background-position: bottom;
 }
